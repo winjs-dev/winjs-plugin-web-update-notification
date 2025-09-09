@@ -11,6 +11,7 @@
     "preview": "win preview"
   },
   "dependencies": {
+    "@plugin-web-update-notification/core": "2.0.2",
     "@winner-fed/winjs": "*"
   },
   "devDependencies": {

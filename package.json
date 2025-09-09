@@ -1,5 +1,5 @@
 {
-  "name": "winjs-plugin-template",
+  "name": "@winner-fed/plugin-web-update-notification",
   "keywords": [
     "winjs",
     "plugin",
@@ -11,10 +11,10 @@
     "typescript",
     "biome"
   ],
-  "version": "0.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winjs-dev/winjs-plugin-template.git"
+    "url": "git+https://github.com/winjs-dev/winjs-plugin-web-update-notification.git"
   },
   "license": "MIT",
   "type": "module",
@@ -57,6 +57,7 @@
     "@winner-fed/winjs": "*"
   },
   "peerDependencies": {
+    "@plugin-web-update-notification/core": "2.0.2",
     "@winner-fed/utils": "*"
   },
   "peerDependenciesMeta": {

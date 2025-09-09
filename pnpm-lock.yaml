@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@plugin-web-update-notification/core':
+        specifier: 2.0.2
+        version: 2.0.2
       '@winner-fed/utils':
         specifier: '*'
         version: 0.17.1
@@ -39,6 +42,9 @@ importers:
 
   playground:
     dependencies:
+      '@plugin-web-update-notification/core':
+        specifier: 2.0.2
+        version: 2.0.2
       '@winner-fed/winjs':
         specifier: '*'
         version: 0.17.1(@babel/core@7.28.3)(@babel/parser@7.28.3)(@rsbuild/core@1.4.15)(@rspack/core@1.4.11(@swc/helpers@0.5.17))(@types/node@22.17.2)(jiti@2.5.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.46.4)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(terser@5.43.1)(tsx@4.17.0)(typescript@5.9.2)(vite@6.3.5(@types/node@22.17.2)(jiti@2.5.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.90.0)(sass@1.90.0)(stylus@0.64.0)(terser@5.43.1)(tsx@4.17.0))(webpack@5.101.3)
@@ -995,6 +1001,9 @@ packages:
     resolution: {integrity: sha512-A+znathYxPf+72riFd1r1ovOLqsIIB0jKIoPjyK2kqEIe30/6jF6BC7QNluHuwUmsD2tv1XZVugN8GqfTMOxsA==}
     engines: {node: '>=18'}
     hasBin: true
+
+  '@plugin-web-update-notification/core@2.0.2':
+    resolution: {integrity: sha512-i3REg6H/3cSImf5fyUj4xYA4OTndnwQ9qLkl3dckZEkER0Tpky9RulUn4ZcMw+BL+oWCa63ldFTtZHW6DuI6GQ==}
 
   '@rolldown/pluginutils@1.0.0-beta.33':
     resolution: {integrity: sha512-she25NCG6NoEPC/SEB4pHs5STcnfI4VBFOzjeI63maSPrWME5J2XC8ogrBgp8NaE/xzj28/kbpSaebiMvFRj+w==}
@@ -4849,6 +4858,8 @@ snapshots:
   '@playwright/test@1.54.2':
     dependencies:
       playwright: 1.54.2
+
+  '@plugin-web-update-notification/core@2.0.2': {}
 
   '@rolldown/pluginutils@1.0.0-beta.33': {}
 
