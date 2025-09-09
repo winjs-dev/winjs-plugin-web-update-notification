@@ -2,7 +2,7 @@
 
 🚀 **Web应用更新通知插件** - 为 WinJS 应用提供智能的版本更新检测和用户友好的更新提醒
 
-<p align="center">
+<p>
   <a href="https://npmjs.com/package/@winner-fed/plugin-web-update-notification">
    <img src="https://img.shields.io/npm/v/@winner-fed/plugin-web-update-notification?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
   </a>
