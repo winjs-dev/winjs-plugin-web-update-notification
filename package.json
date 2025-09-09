@@ -6,7 +6,7 @@
     "plugin",
     "web-update",
     "notification",
-    "version-detection", 
+    "version-detection",
     "update-notification",
     "winner-fed",
     "winjs-dev",
@@ -75,10 +75,6 @@
     "@winner-fed/utils": {
       "optional": true
     }
-  },
-  "engines": {
-    "node": ">=22",
-    "pnpm": ">=10"
   },
   "publishConfig": {
     "access": "public",
