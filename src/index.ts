@@ -27,7 +27,11 @@ const injectVersionTpl = (version: string) => {
   return `window.pluginWebUpdateNotice_version = '${version}';`;
 };
 
-function resolveProjectDep(opts: { pkg: PackageJson; cwd: string; dep: string }) {
+function resolveProjectDep(opts: {
+  pkg: PackageJson;
+  cwd: string;
+  dep: string;
+}) {
   if (
     opts.pkg.dependencies?.[opts.dep] ||
     opts.pkg.devDependencies?.[opts.dep]
@@ -126,7 +130,7 @@ export default (api: IApi) => {
     version = getVersion(versionType, customVersion!);
   } else {
     version = getVersion(versionType!);
-  } 
+  }
 
   // 插件只在生产环境时生效
   if (!version || api.env !== 'production') {
