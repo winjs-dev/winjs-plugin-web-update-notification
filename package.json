@@ -1,15 +1,23 @@
 {
   "name": "@winner-fed/plugin-web-update-notification",
+  "description": "A WinJS plugin for web application update notification. Automatically detects version changes and displays user-friendly update notifications with support for various version types including git commit hash, package version, build timestamp, and custom versions.",
   "keywords": [
     "winjs",
     "plugin",
-    "template",
+    "web-update",
+    "notification",
+    "version-detection", 
+    "update-notification",
     "winner-fed",
     "winjs-dev",
+    "typescript",
+    "biome",
     "rslib",
     "rsbuild",
-    "typescript",
-    "biome"
+    "git-commit-hash",
+    "build-timestamp",
+    "auto-refresh",
+    "web-app-update"
   ],
   "version": "1.0.1",
   "repository": {
