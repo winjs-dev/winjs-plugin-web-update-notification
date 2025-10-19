@@ -23,7 +23,7 @@ importers:
         version: 1.55.1
       '@rsbuild/core':
         specifier: ^1.4.2
-        version: 1.5.16
+        version: 1.5.17
       '@rslib/core':
         specifier: ^0.13.0
         version: 0.13.3(typescript@5.9.3)
@@ -32,7 +32,7 @@ importers:
         version: 22.18.10
       '@winner-fed/winjs':
         specifier: '*'
-        version: 0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.16)(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)
+        version: 0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.17)(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)
       simple-git-hooks:
         specifier: ^2.13.0
         version: 2.13.1
@@ -47,7 +47,7 @@ importers:
         version: 2.0.2
       '@winner-fed/winjs':
         specifier: '*'
-        version: 0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.16)(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)
+        version: 0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.17)(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)
     devDependencies:
       typescript:
         specifier: ^5.0.3
@@ -1104,8 +1104,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.5.16':
-    resolution: {integrity: sha512-AMvyPmpyAF5RfSY70oWiByP/h0mbi3KOgHUsuYapWXtfPTYM/fpvfuEgqc4DZI5YCzZsY5JcEAfG1EmR7I0AXw==}
+  '@rsbuild/core@1.5.17':
+    resolution: {integrity: sha512-tHa4puv+pEooQvSewu/K5sm270nkVPcP07Ioz1c+fbFCrFpiZWV5XumgznilS80097glUrieN+9xTbIHGXjThQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -1982,6 +1982,9 @@ packages:
 
   core-js@3.45.1:
     resolution: {integrity: sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==}
+
+  core-js@3.46.0:
+    resolution: {integrity: sha512-vDMm9B0xnqqZ8uSBpZ8sNtRtOdmfShrvT6h2TuQGLs0Is+cR0DYbj/KWP6ALVNbWPpqA/qPLoOuppJN07humpA==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -4972,12 +4975,12 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.52.4':
     optional: true
 
-  '@rsbuild/core@1.5.16':
+  '@rsbuild/core@1.5.17':
     dependencies:
       '@rspack/core': 1.5.8(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.17
-      core-js: 3.45.1
+      core-js: 3.46.0
       jiti: 2.6.1
 
   '@rsbuild/core@1.5.5':
@@ -4988,13 +4991,13 @@ snapshots:
       core-js: 3.45.1
       jiti: 2.6.1
 
-  '@rsbuild/plugin-babel@1.0.6(@rsbuild/core@1.5.16)':
+  '@rsbuild/plugin-babel@1.0.6(@rsbuild/core@1.5.17)':
     dependencies:
       '@babel/core': 7.28.4
       '@babel/plugin-proposal-decorators': 7.28.0(@babel/core@7.28.4)
       '@babel/plugin-transform-class-properties': 7.27.1(@babel/core@7.28.4)
       '@babel/preset-typescript': 7.27.1(@babel/core@7.28.4)
-      '@rsbuild/core': 1.5.16
+      '@rsbuild/core': 1.5.17
       '@types/babel__core': 7.20.5
       deepmerge: 4.3.1
       reduce-configs: 1.1.1
@@ -5083,20 +5086,20 @@ snapshots:
       - '@rspack/core'
       - typescript
 
-  '@rsbuild/plugin-vue-jsx@1.1.1(@babel/core@7.28.4)(@rsbuild/core@1.5.16)':
+  '@rsbuild/plugin-vue-jsx@1.1.1(@babel/core@7.28.4)(@rsbuild/core@1.5.17)':
     dependencies:
-      '@rsbuild/plugin-babel': 1.0.6(@rsbuild/core@1.5.16)
+      '@rsbuild/plugin-babel': 1.0.6(@rsbuild/core@1.5.17)
       '@vue/babel-plugin-jsx': 1.5.0(@babel/core@7.28.4)
       babel-plugin-vue-jsx-hmr: 1.0.0
     optionalDependencies:
-      '@rsbuild/core': 1.5.16
+      '@rsbuild/core': 1.5.17
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
 
-  '@rsbuild/plugin-vue@1.1.2(@rsbuild/core@1.5.16)(vue@3.5.13(typescript@5.9.3))':
+  '@rsbuild/plugin-vue@1.1.2(@rsbuild/core@1.5.17)(vue@3.5.13(typescript@5.9.3))':
     dependencies:
-      '@rsbuild/core': 1.5.16
+      '@rsbuild/core': 1.5.17
       vue-loader: 17.4.2(vue@3.5.13(typescript@5.9.3))(webpack@5.102.1)
       webpack: 5.102.1
     transitivePeerDependencies:
@@ -5109,8 +5112,8 @@ snapshots:
 
   '@rslib/core@0.13.3(typescript@5.9.3)':
     dependencies:
-      '@rsbuild/core': 1.5.16
-      rsbuild-plugin-dts: 0.13.3(@rsbuild/core@1.5.16)(typescript@5.9.3)
+      '@rsbuild/core': 1.5.17
+      rsbuild-plugin-dts: 0.13.3(@rsbuild/core@1.5.17)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -5686,10 +5689,10 @@ snapshots:
     dependencies:
       tsx: 4.17.0
 
-  '@winner-fed/preset-vue@0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.16)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)':
+  '@winner-fed/preset-vue@0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.17)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)':
     dependencies:
-      '@rsbuild/plugin-vue': 1.1.2(@rsbuild/core@1.5.16)(vue@3.5.13(typescript@5.9.3))
-      '@rsbuild/plugin-vue-jsx': 1.1.1(@babel/core@7.28.4)(@rsbuild/core@1.5.16)
+      '@rsbuild/plugin-vue': 1.1.2(@rsbuild/core@1.5.17)(vue@3.5.13(typescript@5.9.3))
+      '@rsbuild/plugin-vue-jsx': 1.1.1(@babel/core@7.28.4)(@rsbuild/core@1.5.17)
       '@vitejs/plugin-vue-jsx': 4.2.0(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(vue@3.5.13(typescript@5.9.3))
       '@vue/babel-plugin-jsx': 1.1.6(@babel/core@7.28.4)
       '@winner-fed/renderer-vue': 0.17.11(vue-router@4.5.0(vue@3.5.13(typescript@5.9.3)))(vue@3.5.13(typescript@5.9.3))
@@ -5789,13 +5792,13 @@ snapshots:
       chokidar: 3.5.3
       pino: 7.11.0
 
-  '@winner-fed/winjs@0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.16)(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)':
+  '@winner-fed/winjs@0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.17)(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)':
     dependencies:
       '@babel/runtime': 7.26.10
       '@winner-fed/bundler-utils': 0.17.11
       '@winner-fed/bundler-webpack': 0.17.11(@rspack/core@1.5.8(@swc/helpers@0.5.17))(typescript@5.9.3)(webpack@5.102.1)
       '@winner-fed/core': 0.17.11
-      '@winner-fed/preset-vue': 0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.16)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)
+      '@winner-fed/preset-vue': 0.17.11(@babel/core@7.28.4)(@babel/parser@7.28.4)(@rsbuild/core@1.5.17)(typescript@5.9.3)(vite@6.3.5(@types/node@22.18.10)(jiti@2.6.1)(less@4.4.0)(lightningcss@1.22.1)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0))(webpack@5.102.1)
       '@winner-fed/preset-win': 0.17.11(@rspack/core@1.5.8(@swc/helpers@0.5.17))(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.4)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(webpack@5.102.1)
       '@winner-fed/server': 0.17.11
       '@winner-fed/utils': 0.17.11
@@ -6269,6 +6272,8 @@ snapshots:
   core-js@3.40.0: {}
 
   core-js@3.45.1: {}
+
+  core-js@3.46.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -7957,10 +7962,10 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.52.4
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.13.3(@rsbuild/core@1.5.16)(typescript@5.9.3):
+  rsbuild-plugin-dts@0.13.3(@rsbuild/core@1.5.17)(typescript@5.9.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
-      '@rsbuild/core': 1.5.16
+      '@rsbuild/core': 1.5.17
     optionalDependencies:
       typescript: 5.9.3
 
